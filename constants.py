@@ -1,0 +1,54 @@
+import pygame
+
+# Screen settings
+SCREEN_WIDTH = 640
+SCREEN_HEIGHT = 480
+FPS = 60
+
+# Colors (RGB tuples)
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+YELLOW = (255, 255, 0)
+GRAY = (128, 128, 128)
+DARK_GRAY = (64, 64, 64)
+LIGHT_BLUE = (100, 100, 255)
+
+# Game settings
+PLAYER_SIZE = 20
+BULLET_SIZE = 10
+ENEMY_SIZE = 15
+PLAYER_SPEED = 4
+BULLET_SPEED = 8
+ENEMY_SPEED = 2
+SHOOT_DELAY = 200
+WAVE_DURATION = 20000  # 20 seconds per wave
+
+# Default controls
+DEFAULT_CONTROLS = {
+    'UP': pygame.K_z,
+    'DOWN': pygame.K_s,
+    'LEFT': pygame.K_q,
+    'RIGHT': pygame.K_d,
+    'SHOOT': pygame.BUTTON_LEFT  # Mouse button
+}
+
+# Menu settings
+MENU_FONT_SIZE = 36
+MENU_ITEM_PADDING = 20
+BUTTON_WIDTH = 200
+BUTTON_HEIGHT = 50
+SLIDER_WIDTH = 200
+SLIDER_HEIGHT = 20
+
+# Power-up settings
+POWERUP_SIZE = 20
+POWERUP_SPAWN_RATE = 0.001
+MAX_POWERUPS = 3
+
+# Effect settings
+PARTICLE_SIZE = 4
+PARTICLE_SPEED = 5
+EXPLOSION_PARTICLE_COUNT = 20
+HIT_PARTICLE_COUNT = 5
